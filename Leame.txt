@@ -1,0 +1,21 @@
+Para ejecutar el servidor se utiliza:
+
+	servidor.bat
+
+Para ejecutar un cliente:
+	
+	cliente.bat direccion [-s]
+
+Donde dirección es el nombre de host o la dirección IP del servidor. El
+parámetro -s es ocional, si se pone activa el sonido del avión.
+
+Para compilar el cliente se utiliza:
+	
+	javac -classpath .;vrml97.jar Juego.java
+
+Para compilar el servidor
+	
+	javac Servidor.java
+
+Para que funcione se necesita java3D 1.2.1_04 para OpenGL o DirectX
+y JRE 1.2.

@@ -1,0 +1,847 @@
+#VRML V2.0 utf8
+
+Viewpoint {
+}
+NavigationInfo {
+    avatarSize 0
+}
+Collision {
+    collide FALSE
+    children [
+	Group {
+	    children [
+		Switch {
+		    choice [
+			DEF Cube_001 Group {
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material
+						DEF Material_004 Material {
+						    diffuseColor	1 0.639098 0
+						    specularColor	1 1 1
+						    transparency	0
+						    shininess	0.5
+						}
+					}
+				    geometry
+					IndexedFaceSet {
+					    coord
+						DEF _v2%4 Coordinate {
+						    point	[ 0.190467 2.70934 -0.189538,
+								      0.189612 -0.742131 -0.189836,
+								      -0.189612 -0.741683 -0.189721,
+								      -0.188757 2.70979 -0.189423,
+								      0.190467 2.70922 0.189686,
+								      0.189612 -0.742246 0.189388,
+								      -0.189612 -0.741797 0.189502,
+								      -0.188757 2.70967 0.1898 ]
+						}
+					    solid	FALSE
+					    creaseAngle	0.5
+					    coordIndex	[ 0, 1, 2, 3, -1, 4, 7, 6,
+							      5, -1, 0, 4, 5, 1, -1, 1,
+							      5, 6, 2, -1, 2, 6, 7, 3,
+							      -1, 4, 0, 3, 7, -1 ]
+					}
+				}
+			    ]
+			},
+			DEF Cube_003 Group {
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE Material_004
+					}
+				    geometry
+					IndexedFaceSet {
+					    coord
+						DEF _v2%3 Coordinate {
+						    point	[ 0.19047 3.58142 -0.189502,
+								      0.189612 -0.742131 -0.189836,
+								      -0.189612 -0.741683 -0.189721,
+								      -0.188754 3.58187 -0.189388,
+								      0.19047 3.58131 0.189721,
+								      0.189612 -0.742246 0.189388,
+								      -0.189612 -0.741797 0.189502,
+								      -0.188754 3.58176 0.189836 ]
+						}
+					    solid	FALSE
+					    creaseAngle	0.5
+					    coordIndex	[ 0, 1, 2, 3, -1, 4, 7, 6,
+							      5, -1, 0, 4, 5, 1, -1, 1,
+							      5, 6, 2, -1, 2, 6, 7, 3,
+							      -1, 4, 0, 3, 7, -1 ]
+					}
+				}
+			    ]
+			},
+			DEF Cube_004 Group {
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE Material_004
+					}
+				    geometry
+					IndexedFaceSet {
+					    coord
+						DEF _v2%2 Coordinate {
+						    point	[ 0.19047 3.58142 -0.189502,
+								      0.189612 -0.742131 -0.189836,
+								      -0.189612 -0.741683 -0.189721,
+								      -0.188754 3.58187 -0.189388,
+								      0.19047 3.58131 0.189721,
+								      0.189612 -0.742246 0.189388,
+								      -0.189612 -0.741797 0.189502,
+								      -0.188754 3.58176 0.189836 ]
+						}
+					    solid	FALSE
+					    creaseAngle	0.5
+					    coordIndex	[ 0, 1, 2, 3, -1, 4, 7, 6,
+							      5, -1, 0, 4, 5, 1, -1, 1,
+							      5, 6, 2, -1, 2, 6, 7, 3,
+							      -1, 4, 0, 3, 7, -1 ]
+					}
+				}
+			    ]
+			},
+			DEF Cube_005 Group {
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE Material_004
+					}
+				    geometry
+					IndexedFaceSet {
+					    coord
+						DEF _v2%11 Coordinate {
+						    point	[ 0.685406 -1.33577 -0.168031,
+								      0.685491 -1.33575 -0.361335,
+								      -1.04458 1.0003 -0.141896,
+								      -1.04467 1.00028 0.051408,
+								      0.729731 -2.03285 -0.16803,
+								      0.729815 -2.03282 -0.361335,
+								      -1.04519 -0.999698 -0.141896,
+								      -1.04527 -0.999725 0.051408 ]
+						}
+					    solid	FALSE
+					    creaseAngle	0.5
+					    coordIndex	[ 0, 1, 2, 3, -1, 4, 7, 6,
+							      5, -1, 0, 4, 5, 1, -1, 1,
+							      5, 6, 2, -1, 2, 6, 7, 3,
+							      -1, 4, 0, 3, 7, -1 ]
+					}
+				}
+			    ]
+			},
+			DEF Cube_006 Group {
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE Material_004
+					}
+				    geometry
+					IndexedFaceSet {
+					    coord
+						DEF _v2%1 Coordinate {
+						    point	[ 0.190462 2.64226 -0.189438,
+								      0.189612 -0.742131 -0.189836,
+								      -0.189612 -0.741683 -0.189721,
+								      -0.188762 2.6427 -0.189323,
+								      0.190462 2.64214 0.189786,
+								      0.189612 -0.742246 0.189388,
+								      -0.189612 -0.741797 0.189502,
+								      -0.188762 2.64259 0.1899,
+								      0.080879 4.11854 0.078175,
+								      15.8479 3.07767 -9.74435,
+								      15.9256 1.57879 -9.84899,
+								      15.6047 -1.78447 -9.65001,
+								      15.4391 -1.74895 -9.31071,
+								      15.76 1.61431 -9.50969,
+								      15.5863 1.60131 -10.0168,
+								      15.2654 -1.76195 -9.81785,
+								      15.0998 -1.72643 -9.47855,
+								      15.4207 1.63683 -9.67753 ]
+						}
+					    solid	FALSE
+					    creaseAngle	0.5
+					    coordIndex	[ 0, 1, 2, 3, -1, 4, 7, 6,
+							      5, -1, 0, 4, 5, 1, -1, 1,
+							      5, 6, 2, -1, 2, 6, 7, 3,
+							      -1, 3, 8, 7, -1, 0, 8, 3,
+							      -1, 4, 8, 7, -1, 0, 8, 4,
+							      -1, 17, 14, 15, 16, -1, 13, 12,
+							      11, 10, -1, 17, 16, 12, 13, -1,
+							      16, 15, 11, 12, -1, 15, 14, 10,
+							      11, -1, 14, 10, 9, -1, 17, 14,
+							      9, -1, 13, 10, 9, -1, 17, 13,
+							      9, -1 ]
+					}
+				}
+			    ]
+			},
+			DEF Cube_008 Group {
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE Material_004
+					}
+				    geometry
+					IndexedFaceSet {
+					    coord
+						DEF _v2%10 Coordinate {
+						    point	[ 0.609095 -0.329782 0.393263,
+								      -0.976954 1.11323 0.173577,
+								      0.4757 -0.735952 0.375146,
+								      -1.03965 -0.880619 0.055091,
+								      -1.52143 -0.880652 -0.059247,
+								      -3.00115 -0.736196 -0.450008,
+								      -1.63095 1.11318 0.018366,
+								      -3.12864 -0.330045 -0.493807 ]
+						}
+					    solid	FALSE
+					    creaseAngle	0.5
+					    coordIndex	[ 2, 0, 1, 3, -1, 5, 4, 6,
+							      7, -1 ]
+					}
+				}
+			    ]
+			},
+			DEF Cube_010 Group {
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE Material_004
+					}
+				    geometry
+					IndexedFaceSet {
+					    coord
+						DEF _v2%9 Coordinate {
+						    point	[ 0.657123 -1.33813 0.003544,
+								      0.657209 -1.3381 -0.18976,
+								      -1.04458 1.0003 -0.141896,
+								      -1.04467 1.00028 0.051408,
+								      0.701448 -2.03521 0.003544,
+								      0.701533 -2.03518 -0.18976,
+								      -1.04519 -0.999698 -0.141896,
+								      -1.04527 -0.999725 0.051408 ]
+						}
+					    solid	FALSE
+					    creaseAngle	0.5
+					    coordIndex	[ 0, 1, 2, 3, -1, 4, 7, 6,
+							      5, -1, 0, 4, 5, 1, -1, 1,
+							      5, 6, 2, -1, 2, 6, 7, 3,
+							      -1, 4, 0, 3, 7, -1 ]
+					}
+				}
+			    ]
+			},
+			DEF Cube_011 Group {
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE Material_004
+					}
+				    geometry
+					IndexedFaceSet {
+					    coord
+						DEF _v2%8 Coordinate {
+						    point	[ 1.15565 -0.339159 0.032559,
+								      -1.36389 0.997505 -0.480464,
+								      0.61496 -0.837833 0.028519,
+								      -1.3645 -1.0025 -0.480464,
+								      -2.13159 -1.01003 -0.77603,
+								      -4.08785 -0.884051 -1.78351,
+								      -2.17364 0.989547 -0.792467,
+								      -4.61767 -0.395897 -2.19195 ]
+						}
+					    solid	FALSE
+					    creaseAngle	0.5
+					    coordIndex	[ 0, 1, 3, 2, -1, 7, 5, 4,
+							      6, -1 ]
+					}
+				}
+			    ]
+			},
+			DEF Cube_012 Group {
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material
+						DEF Material_001 Material {
+						    diffuseColor	0.93985 0 0
+						    specularColor	1 1 1
+						    transparency	0
+						    shininess	0.0199219
+						}
+					}
+				    geometry
+					IndexedFaceSet {
+					    coord
+						DEF _v2%7 Coordinate {
+						    point	[ 2.05817 0.645394 -0.619879,
+								      1.01406 -7.52422 -0.081937,
+								      0.109657 -7.52418 0.096261,
+								      0.291748 1.19114 -0.231548,
+								      2.01367 0.848809 0.755143,
+								      1.50345 -7.88295 0.402564,
+								      0.671514 -7.5959 0.594942,
+								      1.07247 1.84245 1.15982,
+								      -1.02538 1.83218 1.28693,
+								      -0.38814 -7.60108 0.659147,
+								      -1.24686 -7.89641 0.569206,
+								      -2.02012 0.829068 0.99955,
+								      -0.613349 1.18671 -0.176708,
+								      0.023924 -7.5246 0.101456,
+								      -0.914256 -7.53366 0.034899,
+								      -2.4338 0.623411 -0.34771 ]
+						}
+					    solid	FALSE
+					    creaseAngle	0.5
+					    coordIndex	[ 0, 1, 2, 3, -1, 4, 7, 6,
+							      5, -1, 0, 4, 5, 1, -1, 2,
+							      6, 7, 3, -1, 4, 0, 3, 7,
+							      -1, 15, 12, 13, 14, -1, 11, 10,
+							      9, 8, -1, 15, 14, 10, 11, -1,
+							      13, 12, 8, 9, -1, 11, 8, 12,
+							      15, -1 ]
+					}
+				}
+			    ]
+			},
+			DEF Cylinder Group {
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material
+						DEF Material Material {
+						    diffuseColor	0.6 0.6 0.6
+						    specularColor	1 1 1
+						    transparency	0
+						    shininess	0.5
+						}
+					}
+				    geometry
+					IndexedFaceSet {
+					    coord
+						DEF _v2%0 Coordinate {
+						    point	[ 3.94107 0.84923 -0.129753,
+								      3.95751 0.738951 -0.38194,
+								      3.44703 0.608792 -0.381802,
+								      -1.39773 -0.364088 -0.483508,
+								      -2.46739 -0.18388 -0.483177,
+								      -1.76296 0.24227 -0.231945,
+								      -0.553556 0.635345 -0.259887,
+								      1.16294 0.73766 -0.193516,
+								      3.94099 0.849151 0.127423,
+								      3.95728 0.738718 0.379629,
+								      3.44681 0.608559 0.379767,
+								      -1.39802 -0.364384 0.484526,
+								      -2.46768 -0.184176 0.484857,
+								      -1.7631 0.242128 0.233217,
+								      -0.553711 0.635187 0.26044,
+								      1.16282 0.737541 0.193053,
+								      -0.18122 0.380597 -0.483877,
+								      -0.18151 0.380301 0.484158,
+								      -7.50979 -0.741205 0.224461,
+								      -6.3536 -0.762678 0.07886,
+								      -7.50972 -0.741082 -0.185993,
+								      -6.35357 -0.762631 -0.074252 ]
+						}
+					    solid	FALSE
+					    creaseAngle	0.5
+					    coordIndex	[ 16, 0, 1, -1, 17, 9, 8, -1,
+							      16, 1, 2, -1, 17, 10, 9, -1,
+							      16, 2, 3, -1, 17, 11, 10, -1,
+							      16, 3, 4, -1, 17, 12, 11, -1,
+							      16, 4, 5, -1, 17, 13, 12, -1,
+							      16, 5, 6, -1, 17, 14, 13, -1,
+							      7, 0, 16, -1, 17, 8, 15, -1,
+							      0, 8, 9, 1, -1, 1, 9, 10,
+							      2, -1, 2, 10, 11, 3, -1, 3,
+							      11, 12, 4, -1, 8, 0, 7, 15,
+							      -1, 4, 12, 19, 21, -1, 12, 13,
+							      18, 19, -1, 5, 4, 21, 20, -1,
+							      5, 20, 18, 13, -1 ]
+					}
+				},
+				Shape {
+				    appearance
+					Appearance {
+					    material
+						DEF Material_002 Material {
+						    diffuseColor	0 0 1
+						    specularColor	1 1 1
+						    transparency	0
+						    shininess	0.5
+						}
+					}
+				    geometry
+					IndexedFaceSet {
+					    coord USE _v2%0
+					    solid	FALSE
+					    creaseAngle	0.5
+					    coordIndex	[ 16, 6, 7, -1, 17, 15, 14, -1,
+							      5, 13, 14, 6, -1, 6, 14, 15,
+							      7, -1, 18, 19, 21, 20, -1 ]
+					}
+				}
+			    ]
+			},
+			DEF Cone Group {
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE Material_004
+					}
+				    geometry
+					IndexedFaceSet {
+					    coord
+						DEF _v2%6 Coordinate {
+						    point	[ -4.11316 0.897528 -1.0381,
+								      -3.27695 -0.733284 -1.08915,
+								      -5.21731 -1.19217 -0.932805,
+								      -5.67618 0.754386 -0.914401,
+								      -4.0508 0.06076 4.41636,
+								      0.864338 0.816831 -0.937526,
+								      0.507769 -1.1511 -0.948304,
+								      -1.45644 -0.794537 -1.06982,
+								      -0.652023 0.867771 -1.03017,
+								      -0.624999 0.042091 4.42135 ]
+						}
+					    solid	FALSE
+					    creaseAngle	0.5
+					    coordIndex	[ 1, 0, 4, -1, 4, 2, 1, -1,
+							      4, 3, 2, -1, 4, 0, 3, -1,
+							      0, 3, 2, 1, -1, 6, 5, 9,
+							      -1, 9, 7, 6, -1, 9, 8, 7,
+							      -1, 9, 5, 8, -1, 5, 8, 7,
+							      6, -1 ]
+					}
+				}
+			    ]
+			},
+			DEF Cube Group {
+			    children [
+				Shape {
+				    appearance
+					Appearance {
+					    material USE Material_004
+					}
+				    geometry
+					IndexedFaceSet {
+					    coord
+						DEF _v2%5 Coordinate {
+						    point	[ 0.190462 2.64226 -0.189438,
+								      0.189612 -0.742131 -0.189836,
+								      -0.189612 -0.741683 -0.189721,
+								      -0.188762 2.6427 -0.189323,
+								      0.190462 2.64214 0.189786,
+								      0.189612 -0.742246 0.189388,
+								      -0.189612 -0.741797 0.189502,
+								      -0.188762 2.64259 0.1899 ]
+						}
+					    solid	FALSE
+					    creaseAngle	0.5
+					    coordIndex	[ 0, 1, 2, 3, -1, 4, 7, 6,
+							      5, -1, 0, 4, 5, 1, -1, 1,
+							      5, 6, 2, -1, 2, 6, 7, 3,
+							      -1, 4, 0, 3, 7, -1 ]
+					}
+				}
+			    ]
+			}
+		    ]
+		},
+		Transform {
+		    translation	0.000836 1.50294 -15.6476
+		    rotation	-1 -3.56256e-005 3.56297e-005  1.36123
+		    children [
+			Transform {
+			    translation	1.56052 -5.28411 -0.797814
+			    rotation	0.0279629 0.999576 -0.00807408  2.58467
+			    scale	0.171466 0.171465 0.171466
+			    scaleOrientation	0.57092 0.203517 -0.795381  0.677244
+			    children [
+				Group {
+				    children [
+					Shape {
+					    appearance
+						Appearance {
+						    material
+							DEF _DefMat Material {
+							}
+						}
+					    geometry
+						IndexedFaceSet {
+						    coord USE _v2%1
+						    solid	FALSE
+						    creaseAngle	0.5
+						    coordIndex	[ 0, 1, 2, 3, -1, 4, 7, 6,
+								      5, -1, 0, 4, 5, 1, -1, 1,
+								      5, 6, 2, -1, 2, 6, 7, 3,
+								      -1, 3, 8, 7, -1, 0, 8, 3,
+								      -1, 4, 8, 7, -1, 0, 8, 4,
+								      -1, 17, 14, 15, 16, -1, 13, 12,
+								      11, 10, -1, 17, 16, 12, 13, -1,
+								      16, 15, 11, 12, -1, 15, 14, 10,
+								      11, -1, 14, 10, 9, -1, 17, 14,
+								      9, -1, 13, 10, 9, -1, 17, 13,
+								      9, -1 ]
+						}
+					}
+				    ]
+				}
+			    ]
+			},
+			Transform {
+			    translation	0.818139 -5.17861 -0.860492
+			    rotation	0.000107548 1 -0.000107558  2.58444
+			    scale	0.215844 0.215845 0.215845
+			    scaleOrientation	0.189611 -0.622238 -0.759518  0.800436
+			    children [
+				Group {
+				    children [
+					Shape {
+					    appearance
+						Appearance {
+						    material USE _DefMat
+						}
+					    geometry
+						IndexedFaceSet {
+						    coord USE _v2%2
+						    solid	FALSE
+						    creaseAngle	0.5
+						    coordIndex	[ 0, 1, 2, 3, -1, 4, 7, 6,
+								      5, -1, 0, 4, 5, 1, -1, 1,
+								      5, 6, 2, -1, 2, 6, 7, 3,
+								      -1, 4, 0, 3, 7, -1 ]
+						}
+					}
+				    ]
+				}
+			    ]
+			},
+			Transform {
+			    translation	-0.781749 -5.18405 -0.859915
+			    rotation	6.26843e-005 1 -6.26921e-005  2.0784
+			    scale	0.215844 0.215845 0.215845
+			    scaleOrientation	-0.110519 -0.457643 0.882241  0.55378
+			    children [
+				Group {
+				    children [
+					Shape {
+					    appearance
+						Appearance {
+						    material USE _DefMat
+						}
+					    geometry
+						IndexedFaceSet {
+						    coord USE _v2%3
+						    solid	FALSE
+						    creaseAngle	0.5
+						    coordIndex	[ 0, 1, 2, 3, -1, 4, 7, 6,
+								      5, -1, 0, 4, 5, 1, -1, 1,
+								      5, 6, 2, -1, 2, 6, 7, 3,
+								      -1, 4, 0, 3, 7, -1 ]
+						}
+					}
+				    ]
+				}
+			    ]
+			},
+			Transform {
+			    translation	-1.12716 -5.17081 -0.863878
+			    rotation	6.26843e-005 1 -6.26921e-005  2.0784
+			    scale	0.215844 0.215845 0.215845
+			    scaleOrientation	-0.110519 -0.457643 0.882241  0.55378
+			    children [
+				Group {
+				    children [
+					Shape {
+					    appearance
+						Appearance {
+						    material USE _DefMat
+						}
+					    geometry
+						IndexedFaceSet {
+						    coord USE _v2%4
+						    solid	FALSE
+						    creaseAngle	0.5
+						    coordIndex	[ 0, 1, 2, 3, -1, 4, 7, 6,
+								      5, -1, 0, 4, 5, 1, -1, 1,
+								      5, 6, 2, -1, 2, 6, 7, 3,
+								      -1, 4, 0, 3, 7, -1 ]
+						}
+					}
+				    ]
+				}
+			    ]
+			},
+			Transform {
+			    translation	1.14067 -5.18279 -0.855743
+			    rotation	0.000107548 1 -0.000107558  2.58444
+			    scale	0.215844 0.215845 0.215845
+			    scaleOrientation	0.189611 -0.622238 -0.759518  0.800436
+			    children [
+				Group {
+				    children [
+					Shape {
+					    appearance
+						Appearance {
+						    material USE _DefMat
+						}
+					    geometry
+						IndexedFaceSet {
+						    coord USE _v2%5
+						    solid	FALSE
+						    creaseAngle	0.5
+						    coordIndex	[ 0, 1, 2, 3, -1, 4, 7, 6,
+								      5, -1, 0, 4, 5, 1, -1, 1,
+								      5, 6, 2, -1, 2, 6, 7, 3,
+								      -1, 4, 0, 3, 7, -1 ]
+						}
+					}
+				    ]
+				}
+			    ]
+			},
+			Transform {
+			    translation	0.131286 -6.46974 -0.782799
+			    rotation	1 -0.000303162 1.45519e-011  1.5708
+			    scale	0.052777 0.052777 0.052777
+			    scaleOrientation	-1 0 0  0.785398
+			    children [
+				Group {
+				    children [
+					Shape {
+					    appearance
+						Appearance {
+						    material USE Material_004
+						}
+					    geometry
+						IndexedFaceSet {
+						    coord USE _v2%6
+						    solid	FALSE
+						    creaseAngle	0.5
+						    coordIndex	[ 1, 0, 4, -1, 4, 2, 1, -1,
+								      4, 3, 2, -1, 4, 0, 3, -1,
+								      0, 3, 2, 1, -1, 6, 5, 9,
+								      -1, 9, 7, 6, -1, 9, 8, 7,
+								      -1, 9, 5, 8, -1, 5, 8, 7,
+								      6, -1 ]
+						}
+					}
+				    ]
+				}
+			    ]
+			},
+			Transform {
+			    translation	-0.014801 -4.22653 -0.837808
+			    rotation	0.998942 0.0049795 -0.0457212  3.13686
+			    scale	-0.141846 -0.295875 -0.2147
+			    scaleOrientation	0 0 1  0
+			    children [
+				Group {
+				    children [
+					Shape {
+					    appearance
+						Appearance {
+						    material USE Material_001
+						}
+					    geometry
+						IndexedFaceSet {
+						    coord USE _v2%7
+						    solid	FALSE
+						    creaseAngle	0.5
+						    coordIndex	[ 0, 1, 2, 3, -1, 4, 7, 6,
+								      5, -1, 0, 4, 5, 1, -1, 2,
+								      6, 7, 3, -1, 4, 0, 3, 7,
+								      -1, 15, 12, 13, 14, -1, 11, 10,
+								      9, 8, -1, 15, 14, 10, 11, -1,
+								      13, 12, 8, 9, -1, 11, 8, 12,
+								      15, -1 ]
+						}
+					}
+				    ]
+				}
+			    ]
+			},
+			Transform {
+			    translation	-0.579847 -6.03596 -0.728143
+			    rotation	0.997484 0.00518563 0.0706963  3.13804
+			    scale	-0.330521 -0.34295 -0.122227
+			    scaleOrientation	0 0 1  0
+			    children [
+				Group {
+				    children [
+					Shape {
+					    appearance
+						Appearance {
+						    material USE _DefMat
+						}
+					    geometry
+						IndexedFaceSet {
+						    coord USE _v2%8
+						    solid	FALSE
+						    creaseAngle	0.5
+						    coordIndex	[ 0, 1, 3, 2, -1, 7, 5, 4,
+								      6, -1 ]
+						}
+					}
+				    ]
+				}
+			    ]
+			},
+			Transform {
+			    translation	-0.355304 -5.81262 -0.362103
+			    rotation	0.870857 0.0179028 -0.491211  3.09671
+			    scale	-0.363042 -0.377235 -0.174844
+			    scaleOrientation	0 0 1  0
+			    children [
+				Group {
+				    children [
+					Shape {
+					    appearance
+						Appearance {
+						    material USE _DefMat
+						}
+					    geometry
+						IndexedFaceSet {
+						    coord USE _v2%9
+						    solid	FALSE
+						    creaseAngle	0.5
+						    coordIndex	[ 0, 1, 2, 3, -1, 4, 7, 6,
+								      5, -1, 0, 4, 5, 1, -1, 1,
+								      5, 6, 2, -1, 2, 6, 7, 3,
+								      -1, 4, 0, 3, 7, -1 ]
+						}
+					}
+				    ]
+				}
+			    ]
+			},
+			Transform {
+			    translation	1.04175 -4.7353 -1.03291
+			    rotation	-0.383814 0.922304 -0.0451932  0.252443
+			    scale	0.835489 0.835489 0.835488
+			    scaleOrientation	0.11105 0.579594 -0.807303  1.0767
+			    children [
+				Group {
+				    children [
+					Shape {
+					    appearance
+						Appearance {
+						    material USE _DefMat
+						}
+					    geometry
+						IndexedFaceSet {
+						    coord USE _v2%10
+						    solid	FALSE
+						    creaseAngle	0.5
+						    coordIndex	[ 2, 0, 1, 3, -1, 5, 4, 6,
+								      7, -1 ]
+						}
+					}
+				    ]
+				}
+			    ]
+			},
+			Transform {
+			    translation	0.356886 -5.80102 -0.369743
+			    rotation	-0.0366838 -0.998429 -0.0423621  1.07983
+			    scale	0.363041 0.377235 0.174844
+			    scaleOrientation	0 0 1  0
+			    children [
+				Group {
+				    children [
+					Shape {
+					    appearance
+						Appearance {
+						    material USE _DefMat
+						}
+					    geometry
+						IndexedFaceSet {
+						    coord USE _v2%11
+						    solid	FALSE
+						    creaseAngle	0.5
+						    coordIndex	[ 0, 1, 2, 3, -1, 4, 7, 6,
+								      5, -1, 0, 4, 5, 1, -1, 1,
+								      5, 6, 2, -1, 2, 6, 7, 3,
+								      -1, 4, 0, 3, 7, -1 ]
+						}
+					}
+				    ]
+				}
+			    ]
+			},
+			Transform {
+			    translation	0.000245 -3.18313 -0.81011
+			    rotation	0.553119 0.622992 0.553119  2.0268
+			    scale	0.376432 0.376432 0.29306
+			    scaleOrientation	2.47303e-006 2.48905e-007 -1  0.785401
+			    children [
+				Group {
+				    children [
+					Shape {
+					    appearance
+						Appearance {
+						    material USE Material
+						}
+					    geometry
+						IndexedFaceSet {
+						    coord USE _v2%0
+						    solid	FALSE
+						    creaseAngle	0.5
+						    coordIndex	[ 16, 0, 1, -1, 17, 9, 8, -1,
+								      16, 1, 2, -1, 17, 10, 9, -1,
+								      16, 2, 3, -1, 17, 11, 10, -1,
+								      16, 3, 4, -1, 17, 12, 11, -1,
+								      16, 4, 5, -1, 17, 13, 12, -1,
+								      16, 5, 6, -1, 17, 14, 13, -1,
+								      7, 0, 16, -1, 17, 8, 15, -1,
+								      0, 8, 9, 1, -1, 1, 9, 10,
+								      2, -1, 2, 10, 11, 3, -1, 3,
+								      11, 12, 4, -1, 8, 0, 7, 15,
+								      -1, 4, 12, 19, 21, -1, 12, 13,
+								      18, 19, -1, 5, 4, 21, 20, -1,
+								      5, 20, 18, 13, -1 ]
+						}
+					},
+					Shape {
+					    appearance
+						Appearance {
+						    material USE Material_002
+						}
+					    geometry
+						IndexedFaceSet {
+						    coord USE _v2%0
+						    solid	FALSE
+						    creaseAngle	0.5
+						    coordIndex	[ 16, 6, 7, -1, 17, 15, 14, -1,
+								      5, 13, 14, 6, -1, 6, 14, 15,
+								      7, -1, 18, 19, 21, 20, -1 ]
+						}
+					}
+				    ]
+				}
+			    ]
+			}
+		    ]
+		}
+	    ]
+	}
+    ]
+}
+
